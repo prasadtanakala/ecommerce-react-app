@@ -1,6 +1,7 @@
 import React from 'react'
 import './HeaderComponent.css'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { FaHome ,FaShoppingCart ,FaSignOutAlt} from 'react-icons/fa';
 const HeaderComponent = () => {
     const navigate =useNavigate();
     const handleLogout = () => {
